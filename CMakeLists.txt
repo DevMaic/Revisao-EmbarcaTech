@@ -46,6 +46,7 @@ pico_enable_stdio_usb(DisplayC 1)
 
 # Add the standard library to the build
 target_link_libraries(DisplayC
+        pico_time
         hardware_pwm
         hardware_adc
         hardware_pio
